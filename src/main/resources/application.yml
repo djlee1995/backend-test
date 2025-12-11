@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: backend-test
+
+  jackson:
+    time-zone: Asia/Seoul
+    date-format: yyyy-MM-dd HH:mm:ss
+
+
+server:
+  port: 8090
+
+app:
+  front-origins: http://121.134.202.201:8080
+
+error:
+  include-message: always
